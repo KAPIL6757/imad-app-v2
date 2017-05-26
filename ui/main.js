@@ -2,7 +2,7 @@ var button = document.getElementById('counter');
 var counter = 0;
 button.onclick = function () {
     //craete a request object
-    var request = newXMLHttpRequest();
+    var request = new XMLHttpRequest();
     
     //capture the response and store in the variable
     request.onereadystatechange = function() 
