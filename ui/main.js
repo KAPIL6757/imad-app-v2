@@ -49,8 +49,8 @@ var nameInput = document.getElementById('name');
          
      }
  var ul = document.getElementById('namelist');
-} ul.innerHTML = list;
-
+ul.innerHTML = list;
+}
  };
            
     };
