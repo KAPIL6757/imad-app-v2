@@ -10,7 +10,7 @@ button.onclick = function () {
         if(request.readystate === XMLHttpRequest.DONE)
         {
         //take some action
-        if(Request.status === 200)
+        if(request.status === 200)
         {
             var counter = request.responseText;
             var span = document.getElementById('count');
